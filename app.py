@@ -3,9 +3,9 @@ import pandas as pd
 import os
 
 # Load CSVs from data/raw/ folder
-top_categories = pd.read_csv("data/output/top_categories/part-00000-e8c303d2-ffe8-487d-ad02-82398681eb82-c000.csv")
-title_keywords = pd.read_csv("data/output/title_keywords/part-00000-def55a1d-23b3-448d-9951-2b984b45f6fa-c000.csv")
-top_tags = pd.read_csv("data/output/top_tags/part-00000-45df1c5f-209e-4006-aa9d-825d10a8dcdc-c000.csv")
+top_categories = pd.read_csv("data/output/top_categories/part1.csv")
+title_keywords = pd.read_csv("data/output/title_keywords/part2.csv")
+top_tags = pd.read_csv("data/output/top_tags/part3.csv")
 
 # Display title of the app
 st.title("YouTube Trending Data Analysis")
